@@ -154,13 +154,11 @@ The main differences lie in the fact that `var` can still be accessed before the
 
 There is no rule stating where to use each of them, and people have different opinions. Here I am going to present to you two opinions from popular developers in the `JavaScript` community.
 
-The first opinion comes from [Mathias Bynes](https://mathiasbynens.be/notes/es6-const):
 
 - Use `const` by default
 - Use `let` only if rebinding is needed.
 - `var` should never be used in ES6.
 
-The second opinion comes from [Kyle Simpson](https://me.getify.com/):
 
 - Use `var` for top-level variables that are shared across many (especially larger) scopes.
 - Use `let` for localized variables in smaller scopes.
