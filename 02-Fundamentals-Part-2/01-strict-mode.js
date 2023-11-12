@@ -1,14 +1,14 @@
 // • Strict mode changes previously accepted "bad syntax" into real errors
-"use strict";
+'use strict';
 
 let hasDriversLicense = false;
 const passTest = true;
 
 if (passTest) hasDriverLicense = true;
 // → ReferenceError: hasDriverLicense is not defined
-if (hasDriversLicense) console.log("I can drive :D");
+if (hasDriversLicense) console.log('I can drive :D');
 
-const interface = "Audio";
+const interface = 'Audio';
 // → SyntaxError: Unexpected strict mode reserved word
 const private = 534;
 // → SyntaxError: Unexpected strict mode reserved word
