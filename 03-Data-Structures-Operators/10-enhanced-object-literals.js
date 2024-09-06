@@ -46,5 +46,5 @@ console.log(restaurant);
 //   order: [Function: order]
 // }
 
-console.log(restaurant.order(2,0));
+console.log(restaurant.order(2, 0));
 
